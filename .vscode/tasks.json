@@ -7,10 +7,14 @@
 			"command": "/usr/bin/gcc",
 			"args": [
 				"-g",
-				"*.c",
+				"-Wall",
+				"-Werror",
+				"main.c",
+				"listADTArray.c"
 				"-lm",
+				"-lcurses",
 				"-o",
-				"${fileDirname}/${fileBasenameNoExtension}"
+				"lab03"
 			],
 			"options": {
 				"cwd": "${fileDirname}"
