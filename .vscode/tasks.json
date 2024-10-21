@@ -9,8 +9,8 @@
 				"-g",
 				"-Wall",
 				"-Werror",
-				"main.c",
-				"listADTArray.c"
+				"lab03.c",
+				"listADTArray.c",
 				"-lm",
 				"-lcurses",
 				"-o",
