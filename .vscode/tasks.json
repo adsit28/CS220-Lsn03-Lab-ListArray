@@ -17,7 +17,7 @@
 				"lab03"
 			],
 			"options": {
-				"cwd": "${fileDirname}"
+				//"cwd": "${fileDirname}"
 			},
 			"problemMatcher": [
 				"$gcc"
