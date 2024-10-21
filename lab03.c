@@ -2,7 +2,7 @@
  * ===========================================================
  * Name: First Last
  * Section: xxx
- * Project: Lab 2 - List ADT (w/array)
+ * Project: Lab 3 - List ADT (w/array)
  * ===========================================================
  */
 
