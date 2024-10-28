@@ -5,7 +5,6 @@
  * Project: Lab 3 - List ADT (w/array)
  * ===========================================================
  */
-
 #include <stdio.h>
 #include "listADTArray.h"
 
