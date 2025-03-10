@@ -8,11 +8,28 @@ ListADTArray createList() {
 }
 
 int append(ListADTArray *L, int X) {
+	if(L->size < MAX){
+		for (int i = 0; i < L->size; i++) {
+        	L->items[i] = L->items[i];
+      	}
+      	L->items[L->size] = X;
+      	L->size++;
+      	return 1;
+	}
 	return 0;
 }
 
 int prepend(ListADTArray *L, int X) {
+	if(L->size < MAX){
+		for (int i = L->size; i > 0; i--) {
+        	L->items[i] = L->items[i - 1];
+      	}
+      	L->items[0] = X;
+      	L->size++;
+      	return 1;
+	}
 	return 0;
+	
 }
 
 int isEmpty(ListADTArray L) {
